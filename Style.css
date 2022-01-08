@@ -1,0 +1,93 @@
+body{
+    background-color: white;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 360px 160px 50px 50px 700px 300px 300px 0;
+}
+
+.a img{
+    width: 550px;
+}
+
+.a1 img{
+    width: 270px;
+    height: 250px;
+}
+
+.a2 img{
+    width: 150px;
+}
+
+.a4 img{
+    width: 41px;
+    height: 500px;
+}
+
+.a3 img{
+    width: 48px;
+    height: 400px;
+}
+
+.a5 img{
+    width: 700px;
+    height: 900px;
+}
+
+.a6 img{
+    width: 300px;
+}
+
+.a7 img{
+    width: 300px;
+}
+
+.a{
+    grid-column-start: 5;
+    grid-row-start: 1;
+    z-index: 1;
+    align-self: center;
+    justify-self: center;
+    margin: 100px 0 0 0;
+}
+
+.a1{
+    margin: 120px 0 0 350px;
+}
+
+.a2{
+    align-self: end;
+    grid-column-start: 2;
+}
+
+.a3{
+    align-self: end;
+}
+
+.a4{
+    align-self: end;
+}
+
+.a5{
+    z-index: 0;
+    grid-column-start: 5;
+    grid-row-end: 2;
+}
+
+.a6{
+    align-self: start;
+    grid-column-start: 6;
+    grid-row-start: 1;
+    margin: 100px 0 0 0;
+}
+
+.a7{
+    grid-column-start: 6;
+    grid-row-start: 1;
+    align-self: end;
+}
+
+@media screen and (max-width: 1440px){
+
+}
